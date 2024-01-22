@@ -1,0 +1,15 @@
+ol {
+  overflow: auto;
+  white-space: nowrap;
+
+  li {
+    border-right: 1px solid black;
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+
+    &:hover {
+      background: lightgray;
+    }
+  }
+}
